@@ -1,0 +1,5 @@
+<FindBugsFilter>
+    <Match>
+        <Bug pattern="ICMA_ILLEGAL_CROSS_MODULE_ACCESS" />
+    </Match>
+</FindBugsFilter>

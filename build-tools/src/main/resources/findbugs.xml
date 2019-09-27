@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindbugsPlugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="findbugsplugin.xsd"
+                pluginid="arena" provider="Arena"
+                website="http://www.arena-banking.com">
+
+    <Detector class="idv.woody.findbugs.IllegalCrossModuleAccessDetector" speed="fast"/>
+    <BugPattern type="ICMA_ILLEGAL_CROSS_MODULE_ACCESS" abbrev="ICMA" category="BUG"/>
+
+</FindbugsPlugin>

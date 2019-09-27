@@ -1,0 +1,7 @@
+<FindBugsFilter>
+    <!-- exclude junit tests -->
+    <Match>
+        <Bug code="IJU"/>
+    </Match>
+
+</FindBugsFilter>

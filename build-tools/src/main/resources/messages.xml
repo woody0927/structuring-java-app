@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="messagecollection.xsd">
+
+    <Plugin>
+        <ShortDescription>FindBugs</ShortDescription>
+        <Details>FindBugs</Details>
+    </Plugin>
+
+    <Detector class="idv.woody.findbugs.IllegalCrossModuleAccessDetector">
+        <Details>IllegalCrossModuleAccessDetector</Details>
+    </Detector>
+
+
+    <BugPattern type="ICMA_ILLEGAL_CROSS_MODULE_ACCESS">
+        <ShortDescription>@Illegal Cross Module Access </ShortDescription>
+        <LongDescription>@Illegal Cross Module Access </LongDescription>
+        <Details><![CDATA[<p>Only api and model packages are accessible for cross-module reference.</p>]]></Details>
+    </BugPattern>
+
+    <BugCode abbrev="ICMA">Illegal Cross Module Access</BugCode>
+</MessageCollection>
